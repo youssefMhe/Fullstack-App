@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 class User extends Controller
 {
-    public  function ListUSer()
+    public  function ListUser()
     { $ListUSer =\App\Models\User::all();;
 
         return response()->json($ListUSer);

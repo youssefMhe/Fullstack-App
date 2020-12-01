@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
+
+    public  function ListTask()
+    { $ListTask =Task::all();;
+
+        return response()->json($ListTask);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -35,12 +41,16 @@ class TaskController extends Controller
      */
     public function store(Request $request)
     {
-        $e = new Task();
-        $e->name = $request->name;
-        $e->description = $request->description;
-        $e->date = $request->date;
-        $e->User_id = $request->User_id;
-        $e->save();
+        if($request->isMethod('post')){
+            $Task = new Task();
+            $Task->name = $request->name;
+            $Task->description = $request->description;
+            $Task->date = $request->date;
+            $Task->User_id = $request->User_id;
+            $Task->save();
+            return response()->json($Task);
+        }
+
     }
 
     /**
@@ -69,22 +79,33 @@ class TaskController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Task  $task
+     * @param   int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Task $task)
+    public function update(Request $request,  $id)
     {
         //
+        if($request->isMethod('put')){
+        $T= Task::find($id);
+        $T->name = $request->name;
+        $T->description = $request->description;
+        $T->date = $request->date;
+        $T->User_id = $request->User_id;
+        $T->save();
+        return response()->json($T);
+        }
+
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Task  $task
+     * @param   int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Task $task)
+    public function destroy($id)
     {
-        //
+        Task::find($id)->delete();
+        return ('Task has been deleted');
     }
 }
