@@ -1,0 +1,12 @@
+{
+  "name": "Front",
+  "displayName": "Front",
+  "expo": {
+    "name": "Front",
+    "slug": "Front",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
