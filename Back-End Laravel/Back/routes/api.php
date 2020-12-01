@@ -18,4 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('login','UserController@login');
+Route::post('login','User@login');
+Route::get('ListUser','User@ListUser');
+
+Route::get('ListTask','TaskController@ListTask');
+Route::post('store','TaskController@store');
+Route::put('update/{$id}','TaskController@update');
+Route::delete('destroy/{$id}','TaskController@destroy');
