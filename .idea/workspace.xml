@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b2f098c0-f27b-4c57-99ea-1dfb6d327299" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/app/Http/Controllers/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/app/Http/Controllers/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End Laravel/Back/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Back-End Laravel/Back/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606818337490</updated>
-      <workItem from="1606818338728" duration="10766000" />
+      <workItem from="1606818338728" duration="13881000" />
     </task>
     <servers />
   </component>
@@ -55,9 +62,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606829871959">
+    <state x="530" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606831990264">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="530" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606829871959" />
+    <state x="530" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1606831990264" />
   </component>
 </project>
