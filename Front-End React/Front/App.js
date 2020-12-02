@@ -23,7 +23,7 @@ export default class App extends Component {
                 'Content-Type':'application/json',
             },
             body:JSON.stringify({"email": this.state.login ,"password": this.state.password })
-        }).then(res=>res.json()).then(resData=>{console.log (resData);})
+        }).then(res=>res.json()).then(resData=>{ alert (resData.message) ;console.log (resData);})
 
     };
 
